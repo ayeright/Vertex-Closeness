@@ -1,16 +1,15 @@
 ## Vertex-Closeness
-====================
 
 Overview
 ---------------------
-Ranks vertices in an unweighted, undirected graph by their "closeness".
+Ranks vertices in an unweighted, undirected graph by their closeness centrality http://en.wikipedia.org/wiki/Centrality#Closeness_centrality.
 
 Documentation
 ---------------------
 
 ## Dependencies
 
-Requires Python 2.7. It should work with Python 3.5 but has not been test.
+Requires Python 2.7. Should work with Python 3.5 but has not been test.
 
 ## Installation
 
@@ -19,5 +18,6 @@ Requires Python 2.7. It should work with Python 3.5 but has not been test.
     
 ## Usage
 
-You can now run `python rank_vertex_closeness.py` to rank the .
-    * You can pass one optional argument
+You can run `python rank_vertex_closeness.py` to rank the vertices in `edges.dat` by their closeness centrality.
+    * You can pass one optional argument, the path to an edges file
+    * Each line of the file must consist of two vertex names separated by a single space, representing an edge between those two nodes
