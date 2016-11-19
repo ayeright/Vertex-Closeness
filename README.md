@@ -9,7 +9,7 @@ Documentation
 
 ## Dependencies
 
-Requires Python 2.7. Should work with Python 3.5 but has not been test.
+Requires Python 2.7. Should work with Python 3.5 but has not been tested.
 
 ## Installation
 
